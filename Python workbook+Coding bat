@@ -1,0 +1,207 @@
+Question 1: Hello_name
+# name = input("Please enter your name: ")
+# print(f"Hello, {name}. Nice to meet you!")
+
+
+Question 2: even, odd numbers question
+# integer = int(input("Please enter a integer: "))
+# if integer is 2: 
+#     print(f"{integer}is even.")
+# else: 
+#     print(f"{integer}is odd.")
+
+
+Question 3: input, html question.
+# a = input("Enter a word: ")
+# b = input("Enter a vocabulary: ")
+# html = "<{}>{}</{}>".format(a, b, b, a)
+# print(html)
+
+
+Questionn 4: Month holiday question
+# month = input("Enter a month: ")
+# day = int(input("ENter a day: "))
+# if month == "january" and day == 1: 
+#     print("New year's Day is that day.")
+# elif month == "July" and day == 1: 
+#     print("That is Canada day!")
+# elif month == "December" and day == 25: 
+#     print("That is Christmas holiday!")
+# else: 
+#     print("There's no fixed day holoday.")
+
+
+Question 5: Mailing address. 
+# name = "St. Robert Catholic High School"
+# address = "8101 Leslie St."
+# city = "Thornhill"
+# province = "ON"
+# postal_code = "L3T 7P4"
+# telephone = "905-889-4982"
+# print(name)
+# print(address)
+# print(f"{city}, {province}")
+# print("{}, {}".format(city, province))
+# # which formatting method do you prefer?
+# print(postal_code)
+# print(telephone)
+
+
+Question 6: Area of a field
+# print("Calculate the acreage of a field.")
+# print("Enter dimensions in feet.")
+# length = int(input("Length: "))
+# width = int(input("Width: "))
+# sq_feet = length * width
+# acres = sq_feet / 43560
+# print(f"The field is {acres} acres.")
+
+
+Question 7: Bottle deposits
+# print("Bottle Refund Calculator")
+# print("=" * 24)
+# print()
+
+# num_small = int(input("Enter number of small bottles: "))
+# num_large = int(input("Enter number of large bottles: "))
+
+# refund_small = num_small * 0.10
+# refund_large = num_large * 0.25
+# refund_total = refund_small + refund_large
+
+# print()
+# print("Refund: ${}".format(refund_total))
+
+
+
+
+Question 8: Dog years
+# get age of dog (in years)
+# age = float(input("How old is your dog? "))
+
+# # if the age is negative, display an error message
+# if age < 0:
+#     print("Invalid number!")
+# else:
+#     if age <= 2:
+#         dog_years = age * 10.5
+#     else:
+#         first_two = 2 * 10.5
+#         remaining_years = age - 2
+
+#         dog_years = first_two + remaining_years * 4
+
+#     print(f"Your dog is {dog_years} years old in dog-years.")
+
+
+Question 9: Vowel or Consonant
+if letter == "a":
+    print("Vowel")
+elif letter == "e":
+    print("Vowel")
+elif letter == "i":
+    print("Vowel")
+elif letter == "o":
+    print("Vowel")
+elif letter == "u":
+    print("Vowel")
+elif letter == "y":
+    print("Y is sometimes a vowel")
+else:
+    print("Consonant")
+    
+    
+    
+    
+Question 10: Name that shape.
+sides = int(input("Number of sides: "))
+
+if sides == 3:
+    print("Triangle")
+elif sides == 4:
+    print("Quadrilateral")
+elif sides == 5:
+    print("Pentagon")
+elif sides == 6:
+    print("Hexagon")
+elif sides == 7:
+    print("Heptagon")
+elif sides == 8:
+    print("Octagon")
+elif sides == 9:
+    print("Nonagon")
+elif sides == 10:
+    print("Decagon")
+else:
+    print("Not valid.")
+    
+    
+    
+Coding Bat questions
+Question 1: Hello_name
+
+def test_hello_name_1():
+    assert hello_name('Bob') == 'Hello Bob!'
+    
+    
+Question 2:  "HiByeByeHi".
+def test_make_abba_1():
+    assert make_abba('Hi', 'Bye') == 'HiByeByeHi'
+    
+
+Question 3: Making tags
+def make_tags(tag: str, word: str) -> str:
+    pass
+
+
+result = make_tags('i', 'Yay')
+print(result)
+
+Question 4: Make_out_word
+def test_make_out_word_2():
+    assert make_out_word('<<>>', 'WooHoo') == '<<WooHoo>>'
+  
+
+Question 5: extra_end 
+  def test_extra_end_1():
+    assert extra_end('Hello') == 'lololo'
+    
+    
+Question 6: first_two
+def test_first_two_1():
+    assert first_two('Hello') == 'He'
+   
+Question 7: first_half
+def test_first_half_3():
+    assert first_half('abcdef') == 'abc'
+
+
+Question 8:  without_end 
+def without_end(string: str) -> str:
+    pass
+
+
+result = without_end('Hello')
+print(result)
+
+
+Question 9: combo_string 
+def combo_string(a: str, b: str) -> str:
+    pass
+
+
+result = combo_string('Hello', 'hi')
+return(result)
+
+
+Question 10: non_start 
+def non_start(a: Hello, b: There) -> str:
+    pass
+
+
+result = non_start(a , b)
+print(result)
+
+
+
+
